@@ -138,6 +138,26 @@ function myFunc7() {
     document.getElementById("divOutput7").innerHTML = "Your choice: " + curr + txt;   
 }
 
+function myFunc8() {
+    var currForm = document.forms[7];
+    var curr = "";
+    var i;
+    var txt;
+    for (i = 0; i < currForm.length; i++) {
+        if (currForm[i].checked) {
+        curr = currForm[i].value;
+        }
+    }
+    if (curr == "e") {
+        txt = " is correct!";
+    } else if (curr == "") {
+        alert("Please choose one option.")
+    } else {
+        txt = " is not correct...";
+    }
+    document.getElementById("divOutput8").innerHTML = "Your choice: " + curr + txt;   
+}
+
 function myFunc2_1() {
     var currObjText = document.getElementById("input2_1").value;
     console.log(currObjText);

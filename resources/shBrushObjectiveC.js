@@ -1,25 +1,4 @@
-/**
- * SyntaxHighlighter - Objective-C Brush
- * http://codepirate.seaandco.com/
- *
- * @version
- * 1.0.0 (February 22 2009)
- *
- * @author
- * Geoffrey Byers
- * 
- * @copyright
- * Copyright (C) 2009 Geoffrey Byers.
- *
- * Licensed under a GNU Lesser General Public License.
- * http://creativecommons.org/licenses/LGPL/2.1/
- *
- *  Updated From:
- *  Code Syntax Highlighter for Objective-C.
- *  Version 0.0.2
- *  Copyright (C) 2006 Shin, YoungJin.
- *  http://scottdensmore.typepad.com/blog/2008/12/objective-c-cocoa-syntax-highlighter.html
- */
+
 
 SyntaxHighlighter.brushes.ObjC = function()
 {
