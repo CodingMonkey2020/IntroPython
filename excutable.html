@@ -43,9 +43,28 @@ SyntaxHighlighter.all();
             <img src="./resources/arrow_right_small.png" />Introduction to Python <hr /> 
     </p>
   </div>
-  <div id="main">
-    <h1>Make your own .exe<hr /></h1></div>
+<div id="main">
+  <h1>Make your own .exe<hr /></h1></div>
+    <ul>
+      <li>Please refer to pyinstaller documentation: <a href="https://pyinstaller.readthedocs.io/en/stable/installation.html">How do I make an executable from a Python script?</a></li>
+      <li>Another reference: <a href="https://datatofish.com/executable-pyinstaller/">see here</a></li>
+    </ul>   
+    <ol>
+      <li>Create a new folder/directory, rename it as 'firstExe'</li>
+      <li>Prepare one python script file that has GUI, like your turtle program, easygui, tkinter...</li>
+      <li>Prepare one xxxx.ico image that will be your .exe icon</li>
+      <li>Put the zzzz.py file and .ico image under the same folder: firstExe</li>
+      <li>pip install pyinstaller</li>
+      <li>If you are using windows OS, please install <a href="https://github.com/mhammond/pywin32/releases"><b>pywin32</b></a></li>
+      <li>In your terminal/command prompt, input pyinstaller -h to inspect parameters</li>
+      <li>Change current directory to 'firstExe'</li>
+      <li>Input: pyinstaller -F -w --icon=xxxx.ico zzzz.py</li>
+      <li>Press enter key</li>
+      <li>Find your .exe in dist directory</li>
+      <li>Remember the .exe can only work on the same OS</li>
+    </ol>
 
+</div> 
 
 
 
