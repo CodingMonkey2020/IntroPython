@@ -184,14 +184,28 @@ function myFunc2_2() {
 
 function myFunc2_3_1() {
     var currObjTxt1 = document.getElementById("input2_3_1").value;
-    var x = document.getElementById("input2_3_1");
+    var currObjTxt2 = document.getElementById("input2_3_2").value;
+    var currObjTxt3 = document.getElementById("input2_3_3").value;
     if (currObjTxt1 == "d") {
         document.getElementById("divOutput2_3_1").innerHTML = "<strong>"+"That is correct!"+"</strong>"
-        x.next().show();
-    } else if (currObjTxt1 == "") {
-        alert("Please input result.")
+        document.getElementById("sp231").style.display = "inline";
     } else {
         document.getElementById("divOutput2_3_1").innerHTML = "Incorrect. Please try again."
+        document.getElementById("sp231").style.display = "none";
+    }
+    if (currObjTxt2 == "codingmo") {
+        document.getElementById("divOutput2_3_1").innerHTML = "<strong>"+"That is correct!"+"</strong>"
+        document.getElementById("sp232").style.display = "inline";
+    } else {
+        document.getElementById("divOutput2_3_1").innerHTML = "Incorrect. Please try again."
+        document.getElementById("sp232").style.display = "none";
+    }
+    if (currObjTxt3 == "['c', 'n', 'n']") {
+        document.getElementById("divOutput2_3_1").innerHTML = "<strong>"+"That is correct!"+"</strong>"
+        document.getElementById("sp233").style.display = "inline";
+    } else {
+        document.getElementById("divOutput2_3_1").innerHTML = "Incorrect. Please try again."
+        document.getElementById("sp233").style.display = "none";
     }
 }
 
