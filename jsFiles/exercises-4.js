@@ -162,11 +162,36 @@ function myFunc2_1() {
     var currObjText = document.getElementById("input2_1").value;
     console.log(currObjText);
     if (currObjText == "25 125") {
-        document.getElementById("divOutput2_1").innerHTML = "That is correct!"
+        document.getElementById("divOutput2_1").innerHTML = "<strong>"+"That is correct!"+"</strong>"
     } else if (currObjText == "") {
         alert("Please input the result.")
     } else {
         document.getElementById("divOutput2_1").innerHTML = "Incorrect. Please try again."
+    }
+}
+
+function myFunc2_2() {
+    var currObjTxt1 = document.getElementById("input2_2_1").value;
+    var currObjTxt2 = document.getElementById("input2_2_2").value;
+    if (currObjTxt1 == "int(input(\"Enter the first number: \"))" && currObjTxt2 == "int(input(\"Enter the second number: \"))") {
+        document.getElementById("divOutput2_2").innerHTML = "<strong>"+"That is correct!"+"</strong>"
+    } else if (currObjTxt1 == "" || currObjTxt2 == "") {
+        alert("Please input code snippet.")
+    } else {
+        document.getElementById("divOutput2_2").innerHTML = "Incorrect. Please try again."
+    }
+}
+
+function myFunc2_3_1() {
+    var currObjTxt1 = document.getElementById("input2_3_1").value;
+    var x = document.getElementById("input2_3_1");
+    if (currObjTxt1 == "d") {
+        document.getElementById("divOutput2_3_1").innerHTML = "<strong>"+"That is correct!"+"</strong>"
+        x.next().show();
+    } else if (currObjTxt1 == "") {
+        alert("Please input result.")
+    } else {
+        document.getElementById("divOutput2_3_1").innerHTML = "Incorrect. Please try again."
     }
 }
 

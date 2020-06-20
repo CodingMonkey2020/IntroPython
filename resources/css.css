@@ -38,6 +38,11 @@ blockquote p {
   text-indent:-20px;
 }
 
+.divOutput {
+  border:thin dotted coral;
+  background-color: lightskyblue;
+}
+
 .indentBq {
   background-color:#ddd;
   border:medium solid black;
@@ -294,6 +299,7 @@ h5 {
     font-family: "Courier New", serif;
     color:#22FF22;
     font-size:1.0em;
+    width:80%;
 }
 
 .blackGreen table {
@@ -470,6 +476,7 @@ code {
   font-size:1.3em;
   color:darkgreen;
   font-weight:bold;
+  width: 60%;
 }
 
 #menu a.active {
@@ -598,4 +605,13 @@ p + p {
 
 #contentright p {
   font-size:10px
+}
+
+.tick {
+  background: url(http://wiki.pandorafms.com/images/d/d6/Yes_tick.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 5px 20px;
+  display: none;
 }
