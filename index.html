@@ -1,269 +1,264 @@
+<!DOCTYPE HTML>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"></html>
-  <head>
-<title>Python Term Quiz</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="en" />
-<meta name="robots" content="index,follow" />
-<link rel="stylesheet" type="text/css" href="./resources/css.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="./resources/code.css" media="screen, print" />
-<link href='./resources/print_stylesheet.css' rel='stylesheet' type='text/css' media='print' />
-<script src="./resources/AC_QuickTime.js" language="javascript" type="text/javascript"> </script>
-<script src="./resources/common.js" language="javascript" type="text/javascript"> </script>
-<script src="./jsFiles/unitData.js" language="javascript" type="text/javascript"> </script>
-<script src="./jsFiles/exercises-4.js" language="javascript" type="text/javascript"> </script>
-<script type="text/javascript" src="./resources/shCore.js"></script>
-<script type="text/javascript" src="./resources/shBrushJScript.js"></script>
-<script type="text/javascript" src="./resources/shBrushPlain.js"></script>
-<script type="text/javascript" src="./resources/shBrushXml.js"></script>
-<link type="text/css" rel="stylesheet" href="./resources/shCore.css"/>
-<link type="text/css" rel="stylesheet" href="./resources/shThemeDefault.css"/>
-<script type="text/javascript">
-SyntaxHighlighter.config.clipboardSwf = './resources/clipboard.swf';
-SyntaxHighlighter.all();
-</script>
+<html>
+	<head>
+		<title>Introduction to Python</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-</head>
-<body>
-<div id="center">
-<div id="border">
-  <div id="logo" class="noprint">
-    Introduction to Programming - Python<br>
-    Author: <b>Lucy</b>
-  </div>
-  <div style="font:1.3em geneva,arial,sans-serif;" class="noview">
-    Introduction to Python 1
-    <hr />
-  </div>
-  <div class="noprint">
-    <p class="heading">
-      <a style="color:#999;font-weight:bold;" href="#" /><img src="./resources/home_24.png" />Python</a>
-            <img src="./resources/arrow_right_small.png" />Introduction to Python <hr /> 
-    </p>
-  </div>
-  <div id="main">
-    <h1>Quiz : Fundemental Python<hr /></h1></div>
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-<div class="noprint">
-<h2>Part 1: Multiple Choice</h2>
-<ol>
-<li>What is used to define a block of code in Python?</li>
-  <form id = "form1" action="">
-    <input type="radio" name="1" value="Curly braces">Curly braces<br>
-    <input type="radio" name="1" value="Parenthesis">Parenthesis<br>
-    <input type="radio" name="1" value="Indentation">Indentation<br>
-    <input type="radio" name="1" value="Quotation">Quotation<br>
-    <br>
-    <input type="button" onclick="myFunc1()" value="SUBMIT">
-    <br><br>
-    <div class="divOutput" id="divOutput1" size="50"></div>
-  </form><br>
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Fundemental Python</span>
+								</a>
 
-<li>Which of the following is correct?</li>
-<form id = "form2" action="">
-  <input type="radio" name="1" value="a">a.	Variable name can start with an underscore.<br>
-  <input type="radio" name="1" value="b">b.	Variable name can start with a digit.<br>
-  <input type="radio" name="1" value="c">c.	Keywords cannot be used as a variable name.<br>
-  <input type="radio" name="1" value="d">d.	Variable name can have symbols like: @, #, $ etc.<br>
-  <br>
-  <input type="button" onclick="myFunc2()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput2" size="50"></div>
-</form><br>
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-<li>In the following code, x is a/an _______?</li>
-<blockquote>
-  <code>x = '5 3 1'<br></code> 
-</blockquote><br>
-<form id = "form3" action="">
-  <input type="radio" name="1" value="a">a.	int<br>
-  <input type="radio" name="1" value="b">b.	string<br>
-  <input type="radio" name="1" value="c">c.	list<br>
-  <input type="radio" name="1" value="d">d.	operator<br>
-  <br>
-  <input type="button" onclick="myFunc3()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput3" size="50"></div>
-</form><br>
+						</div>
+					</header>
 
-<li>What is the output of the following code?</li>
-<blockquote>
-  <code>myNum = [1, 2, 3, 4]<br>
-        print(myNum)
-    <br></code> 
-</blockquote><br>
-<form id = "form4" action="">
-  <input type="radio" name="1" value="a">a.	1, 2, 3, 4<br>
-  <input type="radio" name="1" value="b">b.	1 2 3 4<br>
-  <input type="radio" name="1" value="c">c.	[1, 2, 3, 4]<br>
-  <input type="radio" name="1" value="d">d.	[1 2 3 4]<br>
-  <br>
-  <input type="button" onclick="myFunc4()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput4" size="50"></div>
-</form><br>
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Multiple Choice</a></li>
+							<li><a href="fill.html">Fill-in Questions</a></li>
+							<li><a href="project.html">Projects</a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Quiz for Introduction to Python</h1>
+								<p>Questions include multiple choice, fill-in questions and coding project.</p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img id="img11" src="images/pic01.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>1. What is the output of following code?</h3>
+										<div class="content">
+											<pre><code>var1 = 1<br>var2 = 2<br>var3 = "4"<br>print(var + var2 + var3)</code></pre>									
+											<input type="radio" id="1a" name="1" value="a">
+											<label for="1a">a. 7</label>											
+											<input type="radio" id="1b" name="1" value="b">
+											<label for="1b">b. 3</label>											
+											<input type="radio" id="1c" name="1" value="c">
+											<label for="1c">c. 124</label>											
+											<input type="radio" id="1d" name="1" value="d">
+											<label for="1d">d. Error</label><br>
+											<input class="button primary small" id="btn1" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img id="img2" src="images/pic02.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>2. What is the output of following code?</h3>
+										<div class="content">
+											<pre><code>print(int(2.999))</code></pre>											
+											<input type="radio" id="2a" name="2" value="a">
+											<label for="2a">a. 2</label>											
+											<input type="radio" id="2b" name="2" value="b">
+											<label for="2b">b. 3</label>											
+											<input type="radio" id="2c" name="2" value="c">
+											<label for="2c">c. 2.999</label>											
+											<input type="radio" id="2d" name="2" value="d">
+											<label for="2d">d. ValueError: invalid literal for int()</label><br>
+											<input class="button primary small" id="btn2" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img id="img3" src="images/pic03.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>3. True or False?</h3>
+										<div class="content">
+											<pre><code>In Python, <strong>list</strong> is immutable</code></pre>											
+											<input type="radio" id="3t1" name="3a1" value="t">
+											<label for="3t1">True</label>										
+											<input type="radio" id="3f1" name="3a1" value="f">
+											<label for="3f1">False</label>											
+											<pre><code>In Python, <strong>dictionary</strong> is immutable</code></pre>											
+											<input type="radio" id="3t2" name="3a2" value="t">
+											<label for="3t2">True</label>										
+											<input type="radio" id="3f2" name="3a2" value="f">
+											<label for="3f2">False</label>
+											<pre><code>In Python, <strong>string</strong> is immutable</code></pre>											
+											<input type="radio" id="3t3" name="3a3" value="t">
+											<label for="3t3">True</label>										
+											<input type="radio" id="3f3" name="3a3" value="f">
+											<label for="3f3">False</label><br>
+											<input class="button primary small" id="btn3" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img id="img4" src="images/pic04.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>4. Select all the valid String creation in Python</h3>
+										<div class="content">										
+											<input type="checkbox" id="4a" name="4"value="a"> 
+											<label for="4a">myStr = “stringOne”</label>										
+											<input type="checkbox" id="4b" name="4" value="b">
+											<label for="4b">myStr = 'stringTwo'</label>											
+											<input type="checkbox" id="4c" name="4" value="c">
+											<label for="4c">myStr = '''stringThree'''</label>											
+											<input type="checkbox" id="4d" name="4" value="d">
+											<label for="4d">myStr = str("myStr")</label><br>
+											<input class="button primary small" id="btn4" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img id="img5" src="images/pic05.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>5. Select the right way to create a string -- O'Reilly Books</h3>
+										<div class="content">
+											<input type="checkbox" id="5a" name="5"value="a"> 
+											<label for="5a">myStr = “O'Reilly Books”</label>										
+											<input type="checkbox" id="5b" name="5" value="b">
+											<label for="5b">myStr = 'O\'Reilly Books'</label>											
+											<input type="checkbox" id="5c" name="5" value="c">
+											<label for="5c">myStr = '''O'Reilly Books'''</label>											
+											<input type="checkbox" id="5d" name="5" value="d">
+											<label for="5d">myStr = 'O'Reilly Books'</label><br>
+											<input class="button primary small" id="btn5" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img id="img6" src="images/pic06.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>6. What will be the value x when the code executed successfully?</h3>
+										<div class="content">
+											<pre><code>x, y, z = 0, 5, 5<br>if y > 0:<br>	if z < 0: <br>		x = x + 5 <br>	elif y > 5:<br>		x = x + 4<br>	else:<br>		x = x + 3<br>else:<br>	x = x + 2<br>print(x)</code></pre>											
+											<input type="radio" id="6a" name="6" value="a">
+											<label for="6a">a. 2</label>											
+											<input type="radio" id="6b" name="6" value="b">
+											<label for="6b">b. 3</label>											
+											<input type="radio" id="6c" name="6" value="c">
+											<label for="6c">c. 4</label>											
+											<input type="radio" id="6d" name="6" value="d">
+											<label for="6d">d. 0</label><br>
+											<input class="button primary small" id="btn6" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img id="img7" src="images/pic07.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>7. What correct output of the following String operations?</h3>
+										<div class="content">
+											<pre><code>strOne = str("HelloWorld")<br>strTwo = "HelloWorld"<br>print(strOne == strTwo)<br>print(strOne is strTwo)</code></pre>											
+											<input type="radio" id="7a" name="7" value="a">
+											<label for="7a">a. false false</label>											
+											<input type="radio" id="7b" name="7" value="b">
+											<label for="7b">b. true true</label>											
+											<input type="radio" id="7c" name="7" value="c">
+											<label for="7c">c. true false</label>											
+											<input type="radio" id="7d" name="7" value="d">
+											<label for="7d">d. false true</label><br>
+											<input class="button primary small" id="btn7" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img id="img8" src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>8. Select the correct way to print Bob’s age.</h3>
+										<div class="content">
+											<pre><code>student = {1: {'name': 'Bob', 'age': '15', 'gender': 'Male'},<br>2: {'name': 'Alice', 'age': '12', 'gender': 'Female'}}</code></pre>											
+											<input type="radio" id="8a" name="8" value="a">
+											<label for="8a">a. student[0][1]</label>											
+											<input type="radio" id="8b" name="8" value="b">
+											<label for="8b">b. student[0]["age"]</label>											
+											<input type="radio" id="8c" name="8" value="c">
+											<label for="8c">c. student[1]["age"]</label>											
+											<input type="radio" id="8d" name="8" value="d">
+											<label for="8d">d. student["Bob"]["age"]</label><br>
+											<input class="button primary small" id="btn8" value="SUBMIT">
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img id="img9" src="images/pic09.jpg" alt="" />
+									</span>
+									<a href="#">
+										<h3>9. Select all correct way to remove "grade" from a dictionary</h3>
+										<div class="content">
+											<pre><code>student = {<br>	"name": "Alice", <br>	"subject": "CS", <br>	"class": 9, <br>	"grade": "A"}</code></pre>
+											<input type="checkbox" id="9a" name="9"value="a"> 
+											<label for="9a">student.pop(“grade”)</label>										
+											<input type="checkbox" id="9b" name="9" value="b">
+											<label for="9b">student.remove("grade")</label>											
+											<input type="checkbox" id="9c" name="9" value="c">
+											<label for="9c">del student[“grade”]</label>											
+											<input type="checkbox" id="9d" name="9" value="d">
+											<label for="9d">student.popitem()</label><br>
+											<input class="button primary small" id="btn9" value="SUBMIT">
+											</div>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
 
-<li>The statement using <strong>and</strong> operator results true if _______</li>
-<form id = "form5" action="">
-  <input type="radio" name="1" value="a">a.	both operands are true<br>
-  <input type="radio" name="1" value="b">b.	both operands are false<br>
-  <input type="radio" name="1" value="c">c.	either of the operands is true<br>
-  <input type="radio" name="1" value="d">d.	first operand is true<br>
-  <br>
-  <input type="button" onclick="myFunc5()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput5" size="50"></div>
-</form><br>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+							</section>
+							<section>
+								<h2></h2>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design by: <a href="index.html">Lucy Lin</a></li>
+							</ul>
+						</div>
+					</footer>
+			</div>
 
-<li>What is the output of the following code?</li>
-<blockquote>
-  <code>myStr = "coding monkey"<br>
-        print(myStr[1:3])
-    <br></code> 
-</blockquote><br>
-<form id = "form6" action="">
-  <input type="radio" name="1" value="a">a.	cod<br>
-  <input type="radio" name="1" value="b">b.	co<br>
-  <input type="radio" name="1" value="c">c.	odi<br>
-  <input type="radio" name="1" value="d">d.	od<br>
-  <br>
-  <input type="button" onclick="myFunc6()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput6" size="50"></div>
-</form><br>
-
-<li>What is the output of the following code?</li>
-<blockquote>
-  <code>for i in range(10, 15, 1): <br>
-        &nbsp;&nbsp;print(i, end=', ')
-    <br></code> 
-</blockquote><br>
-<form id = "form7" action="">
-  <input type="radio" name="1" value="a">a.	10, 11, 12, 13, 14<br>
-  <input type="radio" name="1" value="b">b. 10, 11, 12, 13, 14,<br>
-  <input type="radio" name="1" value="c">c.	10, 11, 12, 13, 14, 15<br>
-  <input type="radio" name="1" value="d">d.	10, 11, 12, 13, 14, 15,<br>
-  <br>
-  <input type="button" onclick="myFunc7()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput7" size="50"></div>
-</form><br>
-
-<li>What is the output of the following code?</li>
-<blockquote>
-  <code>for x in range(0.5, 5.5, 0.5): <br>
-        &nbsp;&nbsp;print(x, end=' ')
-    <br></code> 
-</blockquote><br>
-<form id = "form8" action="">
-  <input type="radio" name="1" value="a">a.	0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5<br>
-  <input type="radio" name="1" value="b">b. 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0<br>
-  <input type="radio" name="1" value="c">c.	0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0<br>
-  <input type="radio" name="1" value="d">d.	1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0, 5.5<br>
-  <input type="radio" name="1" value="e">e.	Type Error<br>
-  <br>
-  <input type="button" onclick="myFunc8()" value="SUBMIT">
-  <br><br>
-  <div class="divOutput" id="divOutput8" size="50"></div>
-</form><br>
-
-</ol></div>
-
-<div class="noprint">
-  <h2>Part 2: Complete input field</h2>
-  <ol>
-    <li>What is the output of the following code?</li>
-      <blockquote>
-        <code>valueOne = 5 ** 2<br>
-          valueTwo = 5 ** 3<br>
-          print(valueOne, end=' ')<br>
-          print(valueTwo)<br>
-        </code> 
-      </blockquote><br>
-      <input type="text" id="input2_1" size="50" required>
-      <input type="button" onclick="myFunc2_1()" value="SUBMIT">
-      <br><br>
-      <div class="divOutput" id="divOutput2_1" size="50"></div>
-      <br>
-    <li>Please complete the following code:</li>
-      <blockquote>
-        <code>
-          var1 = <input type="text" id="input2_2_1" size="50" required><br>
-          var2 = <input type="text" id="input2_2_2" size="50" required><br>  
-          sum = var1 + var2<br>
-          print("The sum is", sum)
-        </code> 
-      </blockquote>
-      <div><input type="button" onclick="myFunc2_2()" value="SUBMIT"></div><br>
-      <div class="divOutput" id="divOutput2_2" size="50"></div>
-      <div>
-        <ul>
-          <li>Sample Output:</li><br>
-        </ul>
-        <div class="blackGreen" style="background-color:#444;">
-          <p style="color:#22FF22;">Enter the first number: 20<br>Enter the second number: 30<br>The sum is 50</p>
-        </div>  
-      </div><br>
-      <li>What is the output of the following code?</li>
-      <blockquote>
-        <code>
-          strList = ['c','o','d','i','n','g','m','o','n','k','e','y']<br>
-        </code> 
-      </blockquote>
-      <code>print(strList[2])</code><br>
-      <input type="text" id="input2_3_1" size="50" required><span id="sp231" class="tick"></span><br>
-      <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
-      <br><br>
-      <code>print(''.join(strList[:-4]))</code><br>
-      <input type="text" id="input2_3_2" size="50" required><span id="sp232" class="tick"></span><br>
-      <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
-      <br><br>
-      <code>print(strList[::4])</code><br>
-      <input type="text" id="input2_3_3" size="50" required><span id="sp233" class="tick"></span><br>
-      <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
-      <br><br>
-      <div class="divOutput" id="divOutput2_3_1" size="50"></div>
-  </ol>
-</div>
-
-<div class="noprint">
-  <h2>Part 3: Coding</h2>
-  <h3>Fibonacci Sequence</h3>
-  <ul>
-    <li>What is <b>Fibonacci Sequence</b>?</li>
-    <li>Click <a href='https://www.mathsisfun.com/numbers/fibonacci-sequence.html'>here</a> to learn more about <strong>Fib Sequence</strong>!</li>
-    <li>What do we learn to code the Fib Sequence?</li>
-    <li>What are the first ten terms of Fibonacci Sequence?</li>
-    <li>How to write Python scripts get the first ten terms?</li>
-  </ul>      
-  
-  <div style="text-align: center;">
-    <img src="resources/FibonacciRabbit.png" alt="" height="540" width="900" />
-    <img src="resources/FibonacciSequence.png" alt="" height="540" width="600" /><br>
-  </div>
-</div>
-
-<p><br /><br /><br /></p>  
-<div>
-  <p>
-    <a style="color:#999;font-weight:bold;" href="excutable.html">Link: make your .exe</a><hr /> 
-  </p>
-</div>
-
-<p><br /><br /><br /></p>      
-<div id="footer"  class="noprint">
-
-<p class="footer">
-<input type=button value="Back" onClick="history.go(-1)">
-<a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.1</a>
-&nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/">Valid CSS</a>
-&nbsp;&nbsp;|&nbsp;&nbsp; Design by <a href=
-""><b>Lucy Lin</b></a>
-</p>
-</div>
-</div>
-</div>
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/quiz.js"></script>
+	</body>
 </html>
