@@ -68,9 +68,9 @@
                 myList += $(this).val();
             }
         })
-        if (myList=="abc") {
+        if (myList=="") {
             alert("Please choose an option!");
-        } else if (myList == "abcd") {
+        } else if (myList == "abc") {
             alert("Correct!");
             $("#img5").attr("src", "images/pass.png");
         } else {
