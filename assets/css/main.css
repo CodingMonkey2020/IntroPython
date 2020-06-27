@@ -2202,7 +2202,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 3em;
+		height: 1.5em;
 	}
 
 	textarea {

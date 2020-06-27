@@ -179,4 +179,19 @@
         }
     })
 
+    $("#button4").click(function() {
+        var txt1 = $('#input41').val();
+        var txt2 = $('#input42').val();
+        if (txt1=="" || txt2=="") {
+            alert("Please fill some code...");
+        } else if (txt1 == "        break" && txt2 == "        print(x)") {
+            alert("Correct!");
+            $("#img41").attr("src", "images/pass.png");
+        } else {
+            alert("Incorrect...please try again.")
+            $("#input41").val('');
+            $("#input42").val('');
+        }
+    })
+
 })(jQuery);
