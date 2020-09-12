@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"></html>
   <head>
-<title>Python 1 Term Quiz</title>
+<title>Python 2 Term Quiz</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en" />
 <meta name="robots" content="index,follow" />
@@ -34,7 +34,7 @@ SyntaxHighlighter.all();
     Author: <b>Lucy</b>
   </div>
   <div style="font:1.3em geneva,arial,sans-serif;" class="noview">
-    Introduction to Python 1
+    Introduction to Python 2
     <hr />
   </div>
   <div class="noprint">
@@ -44,44 +44,49 @@ SyntaxHighlighter.all();
     </p>
   </div>
   <div id="main">
-    <h1>Quiz : Fundemental Python<hr /></h1></div>
+    <h1>Quiz : Fundemental Python 2<hr /></h1></div>
 
 <div class="noprint">
 <h2>Part 1: Multiple Choice</h2>
 <ol>
-<li>What is used to define a block of code in Python?</li>
+<li>What is the value of the following expression?</li>
+  <blockquote>
+    <code>print(25/5)<br></code> 
+  </blockquote><br>
   <form id = "form1" action="">
-    <input type="radio" name="1" value="Curly braces">Curly braces<br>
-    <input type="radio" name="1" value="Parenthesis">Parenthesis<br>
-    <input type="radio" name="1" value="Indentation">Indentation<br>
-    <input type="radio" name="1" value="Quotation">Quotation<br>
+    <input type="radio" name="1" value="a">a. 5.0<br>
+    <input type="radio" name="1" value="b">b. 5<br>
+    <input type="radio" name="1" value="c">c. error<br>
     <br>
     <input type="button" onclick="myFunc1()" value="SUBMIT">
     <br><br>
     <div class="divOutput" id="divOutput1" size="50"></div>
   </form><br>
 
-<li>Which of the following is correct?</li>
+<li>What is the value of the following expression?</li>
+<blockquote>
+  <code>print(-28//5)<br></code> 
+</blockquote><br>
 <form id = "form2" action="">
-  <input type="radio" name="1" value="a">a.	Variable name can start with an underscore.<br>
-  <input type="radio" name="1" value="b">b.	Variable name can start with a digit.<br>
-  <input type="radio" name="1" value="c">c.	Keywords cannot be used as a variable name.<br>
-  <input type="radio" name="1" value="d">d.	Variable name can have symbols like: @, #, $ etc.<br>
+  <input type="radio" name="1" value="a">a.	-5<br>
+  <input type="radio" name="1" value="b">b.	5<br>
+  <input type="radio" name="1" value="c">c.	-6<br>
+  <input type="radio" name="1" value="d">d.	6<br>
   <br>
   <input type="button" onclick="myFunc2()" value="SUBMIT">
   <br><br>
   <div class="divOutput" id="divOutput2" size="50"></div>
 </form><br>
 
-<li>In the following code, x is a/an _______?</li>
+<li>What is the output of the following code?</li>
 <blockquote>
-  <code>x = '5 3 1'<br></code> 
+  <code>def output(**args):<br>&nbsp;&nbsp;for i in args:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(i)<br>output(name = "Alice", id = 007)<br></code> 
 </blockquote><br>
 <form id = "form3" action="">
-  <input type="radio" name="1" value="a">a.	int<br>
-  <input type="radio" name="1" value="b">b.	string<br>
-  <input type="radio" name="1" value="c">c.	list<br>
-  <input type="radio" name="1" value="d">d.	operator<br>
+  <input type="radio" name="1" value="a">a.	Alice<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;007<br>
+  <input type="radio" name="1" value="b">b.	('name', 'Alice')<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('id', 007)<br>
+  <input type="radio" name="1" value="c">c.	name<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id<br>
+  <input type="radio" name="1" value="d">d.	TypeError<br>
   <br>
   <input type="button" onclick="myFunc3()" value="SUBMIT">
   <br><br>
@@ -90,27 +95,52 @@ SyntaxHighlighter.all();
 
 <li>What is the output of the following code?</li>
 <blockquote>
-  <code>myNum = [1, 2, 3, 4]<br>
-        print(myNum)
+  <code>def output(*args):<br>&nbsp;&nbsp;for i in args:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(i)<br>output(name = "Alice", id = 007)<br></code> 
+</blockquote><br>
+<form id = "form3" action="">
+  <input type="radio" name="1" value="a">a.	Alice<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;007<br>
+  <input type="radio" name="1" value="b">b.	('name', 'Alice')<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('id', 007)<br>
+  <input type="radio" name="1" value="c">c.	name<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id<br>
+  <input type="radio" name="1" value="d">d.	TypeError<br>
+  <br>
+  <input type="button" onclick="myFunc3_1()" value="SUBMIT">
+  <br><br>
+  <div class="divOutput" id="divOutput3_1" size="50"></div>
+</form><br>
+
+<li>What is the output of the add() function call?</li>
+<blockquote>
+  <code>def add(x, y):<br>&nbsp;&nbsp;return x+3, y+5<br>output = add(1, 2)<br>print(output)
     <br></code> 
 </blockquote><br>
 <form id = "form4" action="">
-  <input type="radio" name="1" value="a">a.	1, 2, 3, 4<br>
-  <input type="radio" name="1" value="b">b.	1 2 3 4<br>
-  <input type="radio" name="1" value="c">c.	[1, 2, 3, 4]<br>
-  <input type="radio" name="1" value="d">d.	[1 2 3 4]<br>
+  <input type="radio" name="1" value="a">a.	11<br>
+  <input type="radio" name="1" value="b">b.	4<br>
+  <input type="radio" name="1" value="c">c.	Syntax Error<br>
+  <input type="radio" name="1" value="d">d.	(4, 7)<br>
   <br>
   <input type="button" onclick="myFunc4()" value="SUBMIT">
   <br><br>
   <div class="divOutput" id="divOutput4" size="50"></div>
 </form><br>
 
-<li>The statement using <strong>and</strong> operator results true if _______</li>
+<li>What is the output of the following code?</li>
+<blockquote>
+  <code>def first(a, b):<br>&nbsp;&nbsp;
+    def second(c, d):<br>&nbsp;&nbsp;&nbsp;&nbsp;
+        return c + d<br>&nbsp;&nbsp;
+    return second(a, b)<br>&nbsp;&nbsp;
+    return a<br>
+res = first(10, 20)<br>
+print(res)
+    <br></code> 
+</blockquote><br>
 <form id = "form5" action="">
-  <input type="radio" name="1" value="a">a.	both operands are true<br>
-  <input type="radio" name="1" value="b">b.	both operands are false<br>
-  <input type="radio" name="1" value="c">c.	either of the operands is true<br>
-  <input type="radio" name="1" value="d">d.	first operand is true<br>
+  <input type="radio" name="1" value="a">a.	10<br>
+  <input type="radio" name="1" value="b">b.	30<br>
+  <input type="radio" name="1" value="c">c.	30 10<br>
+  <input type="radio" name="1" value="d">d.	(30, 10)<br>
+  <input type="radio" name="1" value="d">e.	Syntax Error<br>
   <br>
   <input type="button" onclick="myFunc5()" value="SUBMIT">
   <br><br>
@@ -119,15 +149,16 @@ SyntaxHighlighter.all();
 
 <li>What is the output of the following code?</li>
 <blockquote>
-  <code>myStr = "coding monkey"<br>
-        print(myStr[1:3])
+  <code>myTuple = (10, 20, 30, 40, 50)<br>
+    myTuple[1] = 25<br>
+    print(myTuple)
     <br></code> 
 </blockquote><br>
 <form id = "form6" action="">
-  <input type="radio" name="1" value="a">a.	cod<br>
-  <input type="radio" name="1" value="b">b.	co<br>
-  <input type="radio" name="1" value="c">c.	odi<br>
-  <input type="radio" name="1" value="d">d.	od<br>
+  <input type="radio" name="1" value="a">a.	(10, 25, 30, 40, 50)<br>
+  <input type="radio" name="1" value="b">b.	(25, 20, 30, 40, 50)<br>
+  <input type="radio" name="1" value="c">c.	(10, 20, 30, 40, 50)<br>
+  <input type="radio" name="1" value="d">d.	TypeError<br>
   <br>
   <input type="button" onclick="myFunc6()" value="SUBMIT">
   <br><br>
@@ -136,15 +167,17 @@ SyntaxHighlighter.all();
 
 <li>What is the output of the following code?</li>
 <blockquote>
-  <code>for i in range(10, 15, 1): <br>
-        &nbsp;&nbsp;print(i, end=', ')
+  <code>set1 = {10, 20, 30, 40}<br>
+    set2 = {'10', 50, '60', 70}<br>
+    set3 = set1.union(set2)<br>
+    print(set3)
     <br></code> 
 </blockquote><br>
 <form id = "form7" action="">
-  <input type="radio" name="1" value="a">a.	10, 11, 12, 13, 14<br>
-  <input type="radio" name="1" value="b">b. 10, 11, 12, 13, 14,<br>
-  <input type="radio" name="1" value="c">c.	10, 11, 12, 13, 14, 15<br>
-  <input type="radio" name="1" value="d">d.	10, 11, 12, 13, 14, 15,<br>
+  <input type="radio" name="1" value="a">a.	{40, 50, 20, 30, 10, 60, 70}<br>
+  <input type="radio" name="1" value="b">b. {40, 50, 20, 30, 10, 60, '10', 70}<br>
+  <input type="radio" name="1" value="c">c.	{40, 50, 20, 30, '10', 60, 70}<br>
+  <input type="radio" name="1" value="d">d.	SyntaxError<br>
   <br>
   <input type="button" onclick="myFunc7()" value="SUBMIT">
   <br><br>
@@ -153,20 +186,63 @@ SyntaxHighlighter.all();
 
 <li>What is the output of the following code?</li>
 <blockquote>
-  <code>for x in range(0.5, 5.5, 0.5): <br>
-        &nbsp;&nbsp;print(x, end=' ')
+  <code>shapeSet = {'triangle','circle','hexagon','pantagon'}<br>
+    print(shapeSet[1])
     <br></code> 
 </blockquote><br>
 <form id = "form8" action="">
-  <input type="radio" name="1" value="a">a.	0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5<br>
-  <input type="radio" name="1" value="b">b. 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0<br>
-  <input type="radio" name="1" value="c">c.	0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0<br>
-  <input type="radio" name="1" value="d">d.	1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0, 5.5<br>
-  <input type="radio" name="1" value="e">e.	Type Error<br>
+  <input type="radio" name="1" value="a">a.	circle<br>
+  <input type="radio" name="1" value="b">b. triangle<br>
+  <input type="radio" name="1" value="c">c.	'circle'<br>
+  <input type="radio" name="1" value="d">d.	SyntaxError<br>
   <br>
   <input type="button" onclick="myFunc8()" value="SUBMIT">
   <br><br>
   <div class="divOutput" id="divOutput8" size="50"></div>
+</form><br>
+
+<li>Which is true for Python function?</li>
+<form id = "form9" action="">
+  <input type="checkbox" name="1" value="a">a. A function can return only a single value<br>
+  <input type="checkbox" name="1" value="b">b. A function can take an unlimited number of arguments<br>
+  <input type="checkbox" name="1" value="c">c. A function can return multiple values<br>
+  <input type="checkbox" name="1" value="d">d. A function doesn't return anythin unless add a return statement<br>
+  <input type="checkbox" name="1" value="e">e. A function is a code block that only executes when it is called<br>
+  <input type="checkbox" name="1" value="f">f. A function always returns a value<br>
+  <input type="checkbox" name="1" value="g">g. A function can be reused in a program<br>
+  <input type="checkbox" name="1" value="h">h. Python doesn't support nested function<br>
+  <br>
+  <input type="button" onclick="myFunc9()" value="SUBMIT">
+  <br><br>
+  <div class="divOutput" id="divOutput9" size="50"></div>
+</form><br>
+
+<li>Which is true for Python tuple?</li>
+<form id = "form10" action="">
+  <input type="checkbox" name="1" value="a">a. A tuple maintains the order of items<br>
+  <input type="checkbox" name="1" value="b">b. A tuple is unordered<br>
+  <input type="checkbox" name="1" value="c">c. We cannot change the tuple once created<br>
+  <input type="checkbox" name="1" value="d">d. We cannot remove items from the tuple<br>
+  <input type="checkbox" name="1" value="e">e. We cannot delete the tuple<br>
+  <input type="checkbox" name="1" value="f">f. We cannot update items of the tuple<br>
+  <input type="checkbox" name="1" value="g">g. A tuple can be created without using parentheses<br>
+  <br>
+  <input type="button" onclick="myFunc10()" value="SUBMIT">
+  <br><br>
+  <div class="divOutput" id="divOutput10" size="50"></div>
+</form><br>
+
+<li>Which is true for Python set?</li>
+<form id = "form11" action="">
+  <input type="checkbox" name="1" value="a">a. Set is unordered<br>
+  <input type="checkbox" name="1" value="b">b. Set does not allow duplicate<br>
+  <input type="checkbox" name="1" value="c">c. Set is around by curly braces<br>
+  <input type="checkbox" name="1" value="d">d. Set is immutable<br>
+  <input type="checkbox" name="1" value="e">e. Set supports indexing<br>
+  <br>
+  <input type="button" onclick="myFunc11()" value="SUBMIT">
+  <br><br>
+  <div class="divOutput" id="divOutput11" size="50"></div>
 </form><br>
 
 </ol></div>
@@ -174,53 +250,64 @@ SyntaxHighlighter.all();
 <div class="noprint">
   <h2>Part 2: Complete input field</h2>
   <ol>
-    <li>What is the output of the following code?</li>
+    <li>What is the output of the following function call?</li>
       <blockquote>
-        <code>valueOne = 5 ** 2<br>
-          valueTwo = 5 ** 3<br>
-          print(valueOne, end=' ')<br>
-          print(valueTwo)<br>
+        <code>def first(a, b):<br>&nbsp;&nbsp;
+          def second(c, d):<br>&nbsp;&nbsp;&nbsp;&nbsp;
+              return c + d<br>&nbsp;&nbsp;
+          return second(a, b)<br>
+      res = first(10, 20)<br>
+      print(res)<br>
         </code> 
       </blockquote><br>
-      <input type="text" id="input2_1" size="50" required>
+      <input type="text" id="input2_1" size="50" required><span id="sp21" class="tick"></span><br>
       <input type="button" onclick="myFunc2_1()" value="SUBMIT">
       <br><br>
       <div class="divOutput" id="divOutput2_1" size="50"></div>
       <br>
-    <li>Please complete the following code:</li>
+
+    <li>What is the output of the code?</li>
       <blockquote>
         <code>
-          var1 = <input type="text" id="input2_2_1" size="50" required><br>
-          var2 = <input type="text" id="input2_2_2" size="50" required><br>  
-          sum = var1 + var2<br>
-          print("The sum is", sum)
+            x = [1,2]<br>
+            y = x<br>
+            y += [3,4]<br>
+            print(x, end=' ')<br>
+            print(y)<br>
         </code> 
       </blockquote>
+      <input type="text" id="input2_2" size="50" required><span id="sp22" class="tick"></span><br>
       <div><input type="button" onclick="myFunc2_2()" value="SUBMIT"></div><br>
       <div class="divOutput" id="divOutput2_2" size="50"></div>
-      <div>
+   <!--<div>
         <ul>
           <li>Sample Output:</li><br>
         </ul>
         <div class="blackGreen" style="background-color:#444;">
           <p style="color:#22FF22;">Enter the first number: 20<br>Enter the second number: 30<br>The sum is 50</p>
         </div>  
-      </div><br>
+      </div>--><br>
       <li>What is the output of the following code?</li>
       <blockquote>
         <code>
-          strList = ['c','o','d','i','n','g','m','o','n','k','e','y']<br>
+          myTuple = (10, 20, 30, 40, 50)<br>
         </code> 
       </blockquote>
-      <code>print(strList[2])</code><br>
+      <code>print(myTuple[-2])</code><br>
       <input type="text" id="input2_3_1" size="50" required><span id="sp231" class="tick"></span><br>
       <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
       <br><br>
-      <code>print(''.join(strList[:-4]))</code><br>
+      <code>print(myTuple[-4:-1])</code><br>
       <input type="text" id="input2_3_2" size="50" required><span id="sp232" class="tick"></span><br>
       <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
       <br><br>
-      <code>print(strList[::4])</code><br>
+
+      <blockquote>
+        <code>
+          numTuple = (0, 10, 20, 30, 40, 50, 60, 70, 80)<br>
+        </code> 
+      </blockquote>
+      <code>print(numTuple[2:5], numTuple[:4], numTuple[3:])</code><br>
       <input type="text" id="input2_3_3" size="50" required><span id="sp233" class="tick"></span><br>
       <input type="button" onclick="myFunc2_3_1()" value="SUBMIT">
       <br><br>
@@ -230,22 +317,35 @@ SyntaxHighlighter.all();
 
 <div class="noprint">
   <h2>Part 3: Coding</h2>
-  <h3>Fibonacci Sequence</h3>
+  <h3>Narcissistic Number</h3>
   <ul>
-    <li>What is <b>Fibonacci Sequence</b>?</li>
-    <li>Click <a href='https://www.mathsisfun.com/numbers/fibonacci-sequence.html'>here</a> to learn more about <strong>Fib Sequence</strong>!</li>
-    <li>What do we learn to code the Fib Sequence?</li>
-    <li>What are the first ten terms of Fibonacci Sequence?</li>
-    <li>How to write Python scripts get the first ten terms?</li>
-  </ul>      
+    <li>What is <b>Narcissistic Number</b>?</li>
+    <li>Click <a href='http://ey.westside66.org/32-math-minute-narcissistic-numbers/'>here</a> to learn more about <strong>Narcissistic Number</strong>!</li>
+    <li>A <strong>Narcissistic Number</strong> is a number that is the sum of its own digits each raised to the power of the number of digits.</li>
+    <li>How to determine if a number is a <strong>Narcissistic Number</strong>?</li>
+    <li>(Optional) Can you print all <strong>Narcissistic Number</strong> in the range of 1 to 999?</li>
+  </ul><br><br>      
   
   <div style="text-align: center;">
-    <img src="resources/FibonacciRabbit.png" alt="" height="540" width="900" />
-    <img src="resources/FibonacciSequence.png" alt="" height="540" width="600" /><br>
+    <img src="resources/nar1.jpg" alt="" height="600" width="900" />
   </div>
 </div>
 
-<p><br /><br /><br /></p>  
+<div class="noprint">
+  <h2>Part 4: File I/O</h2>
+  <h3>Alice's Adventures in Wonderland</h3>
+  <ul>
+    <li>Click <a href='http://www.umich.edu/~umfandsf/other/ebooks/alice30.txt'>here</a> to download the text file to your local computer.</li>
+    <li>Write a program to count how many times the "<strong>March Hare</strong>" appears.</li>
+    <li>Generate a custom <strong>WordCloud</strong> image.</li>
+  </ul> 
+  
+  <div style="text-align: center;">
+    <img src="resources/alice.png" alt="" height="450" width="600" />
+  </div>
+</div>
+
+<p><br /></p>  
 <div>
   <p>
   <!-- <a style="color:#999;font-weight:bold;" href="excutable.html">Link: make your .exe</a><hr /> -->
@@ -259,8 +359,7 @@ SyntaxHighlighter.all();
 <input type=button value="Back" onClick="history.go(-1)">
 <a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.1</a>
 &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/">Valid CSS</a>
-&nbsp;&nbsp;|&nbsp;&nbsp; Design by <a href=
-""><b>Lucy Lin</b></a>
+&nbsp;&nbsp;|&nbsp;&nbsp; Design by <a href=""><b>Lucy Lin</b></a>
 </p>
 </div>
 </div>
